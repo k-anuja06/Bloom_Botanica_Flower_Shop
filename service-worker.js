@@ -13,8 +13,8 @@ const urlsToCache = [
   '/manifest.json',
 
   // images
-  '/images/flower-icon-192.webp',
-  '/images/flower-icon-512.webp',
+  '/images/flower-icon-192.png',
+  '/images/flower-icon-512.png',
   '/images/about-1.webp',
   '/images/about-2.webp',
   '/images/about-img.webp',
