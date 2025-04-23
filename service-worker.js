@@ -8,8 +8,6 @@ const URLS_TO_CACHE = [
   './css/bootstrap.css',
   './css/responsive.css',
   './css/style.css',
-  './js/bootstrap.js',
-  './js/jquery-3.4.1.min.js',
   './main.js',
 
   // images
