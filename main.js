@@ -1,7 +1,7 @@
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
       navigator.serviceWorker
-        .register('js/service-worker.js') // Path relative to HTML file
+        .register('service-worker.js') // Path relative to HTML file
         .then(function (registration) {
           console.log('Service Worker registered with scope:', registration.scope);
         })

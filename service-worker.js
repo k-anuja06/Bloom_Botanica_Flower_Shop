@@ -11,7 +11,6 @@ const URLS_TO_CACHE = [
     '/js/jquery-3.4.1.min.js',
     '/js/bootstrap.js',
     '/js/main.js',
-    '/js/service-worker.js',
     '/images/cimg/about-1.png',
     '/images/cimg/about-2.png',
     '/images/cimg/about-img.png',
