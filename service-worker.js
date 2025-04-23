@@ -6,6 +6,7 @@ const urlsToCache = [
   '/about.html',
   '/contact.html',
   '/gallery.html',
+  '/offline.html',
   '/css/bootstrap.css',
   '/css/responsive.css',
   '/css/style.css',

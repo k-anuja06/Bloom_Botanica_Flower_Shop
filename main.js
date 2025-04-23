@@ -10,3 +10,17 @@ if ('serviceWorker' in navigator) {
       });
   });
 }
+
+
+window.addEventListener('load', () => {
+  function updateOnlineStatus() {
+    const status = navigator.onLine ? 'online' : 'offline';
+    if (status === 'offline') {
+      alert("You are currently offline");
+      // Or show a banner div
+    }
+  }
+
+  window.addEventListener('online', updateOnlineStatus);
+  window.addEventListener('offline', updateOnlineStatus);
+});
