@@ -10,8 +10,11 @@ const urlsToCache = [
   '/css/responsive.css',
   '/css/style.css',
   '/main.js',
+  '/manifest.json',
 
   // images
+  '/images/cimg/flower-icon-192.png',
+  '/images/cimg/flower-icon-512.png',
   '/images/cimg/about-1.png',
   '/images/cimg/about-2.png',
   '/images/cimg/about-img.png',
