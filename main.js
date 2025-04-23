@@ -1,12 +1,12 @@
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function () {
+  window.addEventListener('load', () => {
     navigator.serviceWorker
-      .register('service-worker.js')  // Correct path now since it's in root
-      .then(function (registration) {
-        console.log('Service Worker registered with scope:', registration.scope);
+      .register('/service-worker.js')
+      .then(registration => {
+        console.log('✅ Service Worker registered: ', registration.scope);
       })
-      .catch(function (error) {
-        console.log('Service Worker registration failed:', error);
+      .catch(error => {
+        console.error('❌ Service Worker registration failed:', error);
       });
   });
 }
