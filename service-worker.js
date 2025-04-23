@@ -1,6 +1,6 @@
 const CACHE_NAME = 'v1';
 
-const URLS_TO_CACHE = [
+const urlsToCache = [
   '/',
   '/index.html',
   '/about.html',
