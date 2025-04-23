@@ -17,7 +17,6 @@ window.addEventListener('load', () => {
     const status = navigator.onLine ? 'online' : 'offline';
     if (status === 'offline') {
       alert("You are currently offline");
-      // Or show a banner div
     }
   }
 
